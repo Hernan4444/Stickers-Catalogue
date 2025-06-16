@@ -34,7 +34,7 @@ function loadImages() {
             .join('div')
             .attr('class', 'item')
             .append('img')
-            .attr('src', d => '/procesadas_jpg/' + d.nombre)
+            .attr('src', d => './procesadas_jpg/' + d.nombre)
             .attr('alt', 'Imagen')
             .attr('class', 'item');
     })
