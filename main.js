@@ -150,6 +150,7 @@ function autocomplete(inp, arr) {
                     /*close the list of autocompleted values,
                     (or any other open lists of autocompleted values:*/
                     closeAllLists();
+                    searchTags(inp.value.trim().toLowerCase());
                 });
                 a.appendChild(b);
             }
