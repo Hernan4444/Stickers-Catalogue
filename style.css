@@ -1,0 +1,210 @@
+:root {
+    --background-color: #dedede;
+    --title-color: #2A3B47;
+    --text-color: #242525;
+    --border-color: #EFF3F5;
+    --container-color: #c5c5c5;
+}
+
+/* Variables para el tema dark */
+body.dark-theme {
+    --background-color: #121212;
+    --title-color: #E0E0E0;
+    --text-color: #B0B0B0;
+    --border-color: #444444;
+    --container-color: #212E36;
+}
+
+
+body {
+    margin: 0 auto;
+    /* Puedes cambiar el color de fondo (background-color) si lo deseas */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: 1500px;
+    min-width: 500px;
+    padding: 10px;
+}
+
+h1 {
+    color: var(--title-color);
+}
+
+.configuration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+input[type='checkbox'] {
+    margin: 0px;
+    width: 19px;
+    height: 19px;
+    margin-left: 5px;
+}
+
+.item {
+    margin: 0.5rem 0;
+}
+
+
+.toggle-container {
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+.mode-label {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* search-container tiene 2 filas, una para la barra de busqueda y otra para los tags */
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bonito el taglist */
+.taglist {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: var(--container-color);
+    color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    border: 1px solid var(--border-color);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color: var(--text-color);
+    color: var(--container-color);
+}
+
+
+
+
+/* Autocomplete */
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.search-bar button {
+    background-color: var(--container-color);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+}
+
+.search-bar button:hover {
+    background-color: var(--text-color);
+}
