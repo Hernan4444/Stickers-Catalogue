@@ -12,6 +12,9 @@ for filename in os.listdir(input_folder):
         input_path = os.path.join(input_folder, filename)
         output_path = os.path.join(output_folder, filename.replace(".png", ".jpg"))
 
+        if os.path.exists(output_path):
+            continue
+
         with Image.open(input_path) as img:
             # Convertir temporalmente a JPG en memoria para comprimir
             buffer = io.BytesIO()

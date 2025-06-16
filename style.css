@@ -22,7 +22,6 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     max-width: 1500px;
-    min-width: 500px;
     padding: 10px;
 }
 
