@@ -207,8 +207,10 @@ input[type=text] {
 .search-bar button:hover {
     background-color: var(--text-color);
 }
-
-img {
-    max-width: 80%;
-    height: auto;
+/* Escalar imagen si la pantalla es menor a 600px */
+@media (max-width: 600px) {
+    img {
+        max-width: 60%;
+        height: auto;
+    }
 }
