@@ -25,3 +25,7 @@ no_en_carpeta = nombres_csv - archivos_carpeta
 # Mostrar resultados
 for archivo in sorted(no_en_carpeta):
     print(archivo)
+
+print("\n NO EN CSV \n")
+for archivo in sorted(no_en_csv):
+    print(archivo)

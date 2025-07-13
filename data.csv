@@ -30,12 +30,12 @@ frieren_7.jpg,Frieren
 frieren_8.jpg,Frieren
 frieren_9.jpg,Frieren;Fern
 frieren_10.jpg,Frieren
-frieren_11.jpg,Frieren
+frieren_11.jpg,Frieren;ilustrador_azallie
 frieren_12.jpg,Frieren
 frieren_13.jpg,Frieren;Fern
 frieren_14.jpg,Frieren
 frieren_15.jpg,Frieren;Fern
-frieren_16.jpg,Frieren;Fern
+frieren_16.jpg,Frieren;Fern;ilustrador_azallie
 frieren_17.jpg,Frieren
 Sakura_1.jpg,Sakura Card Captor;Sakura
 Sakura_2.jpg,Sakura Card Captor;Tomoyo
@@ -52,6 +52,9 @@ Sakura_12.jpg,Sakura Card Captor;Sakura
 Sakura_13.jpg,Sakura Card Captor;Sakura
 Sakura_14.jpg,Sakura Card Captor;Tomoyo
 Sakura_15.jpg,Sakura Card Captor;Sakura;Tomoyo;Kero
+Sakura_16.jpg,Sakura Card Captor;Sakura;ilustrador_azallie
+your_name_1.jpg,Your Name;Mitsuha;ilustrador_azallie;Kimi no Na wa
+Utena_1.jpg,Utena;Utena;ilustrador_azallie
 Komi_1.jpg,Komi-san;Komi
 Komi_2.jpg,Komi-san;Najimi
 Komi_3.jpg,Komi-san;Komi
@@ -64,13 +67,15 @@ Komi_10.jpg,Komi-san;Komi
 Komi_11.jpg,Komi-san;Komi
 Komi_12.jpg,Komi-san;Komi
 Komi_13.jpg,Komi-san;Komi
-Boticaria_1.jpg,Kusuriya;Maomao
+Boticaria_1.jpg,Kusuriya;Maomao;ilustrador_alisonalmarcegui
 Boticaria_2.jpg,Kusuriya;Maomao
 Boticaria_3.jpg,Kusuriya;Maomao
 Boticaria_4.jpg,Kusuriya;Maomao
-Boticaria_5.jpg,Kusuriya;Maomao
+Boticaria_5.jpg,Kusuriya;Maomao;ilustrador_azallie
 Boticaria_6.jpg,Kusuriya;Maomao
 Boticaria_7.jpg,Kusuriya;Maomao
+Boticaria_8.jpg,Kusuriya;Maomao;ilustrador_PENDIENTE_1
+Kobato_1.jpg,Kobato;Kobato;ilustrador_azallie
 Re_zero_1.jpg,Re:Zero;Ram
 Re_zero_2.jpg,Re:Zero;Rem
 Re_zero_3.jpg,Re:Zero;Rem
@@ -98,6 +103,31 @@ HatsuneMiku_12.jpg,Hatsune Miku;Vocaloid
 HatsuneMiku_13.jpg,Hatsune Miku;Vocaloid
 HatsuneMiku_14.jpg,Hatsune Miku;Vocaloid
 HatsuneMiku_15.jpg,Hatsune Miku;Vocaloid
+HatsuneMiku_16.jpg,Hatsune Miku;Vocaloid;ilustrador_PENDIENTE_1
+HatsuneMiku_17.jpg,Hatsune Miku;Vocaloid;ilustrador_PENDIENTE_2
+Angel_beats_1.jpg,Angel Beats;Yui;ilustrador_PENDIENTE_2
+Noragami_1.jpg,Noragami;Hiyori;ilustrador_PENDIENTE_1
+Bakarina_1.jpg,Bakarina;Katarina
+Bakarina_2.jpg,Bakarina;Katarina
+Bakarina_3.jpg,Bakarina;Katarina
+Bunny_1.jpg,Bunny senpao;Mai;ilustrador_azallie
+Ranma_1.jpg,Ranma 1/2;Shampoo;ilustrador_azallie
+Ranma_2.jpg,Ranma 1/2;Ranma;ilustrador_azallie
+Ranma_3.jpg,Ranma 1/2;Akane;ilustrador_azallie
+Kimi_ni_Todoke_1.jpg,Kimi ni Todoke;Sawako;ilustrador_azallie
+Sailor_Moon_1.jpg,Sailor Moon;Usagi;ilustrador_azallie
+Steins_Gate_1.jpg,Steins Gate;Kurisu;ilustrador_azallie
+Mikami_1.jpg,Mikami;Mikami;ilustrador_azallie
+Ouran_1.jpg,Ouran;Haruhi;ilustrador_azallie
+Conan_1.jpg,Detective Conan;Ran;ilustrador_azallie
+Inuyasha_1.jpg,Inuyasha;Kagome;ilustrador_azallie
+Inuyasha_2.jpg,Inuyasha;Kagome
+Spice_and_Wolf_1.jpg,Spice and Wolf;Holo;ilustrador_azallie
+Fruits_Basket_1.jpg,Frutas Basket;Tohru;ilustrador_azallie
+School_Rumble_1.jpg,School Rumble;Tenma;ilustrador_azallie
+Slayers_1.jpg,Slayers;Lina;ilustrador_azallie
+Slayers_2.jpg,Slayers;Lina
+Slayers_3.jpg,Slayers;Sylphiel
 Parejas_1.jpg,Parejas;Sakura;Syaoran;Sakura Card Captor
 Parejas_2.jpg,Parejas;Kimi ni Todoke;Sawako;Kazehaya
 Parejas_3.jpg,Parejas;
@@ -131,6 +161,7 @@ Parejas_30.jpg,Parejas;
 Parejas_31.jpg,Parejas;
 Parejas_32.jpg,Parejas;
 Parejas_33.jpg,Parejas;
+Parejas_34.jpg,Parejas;Ouran;Haruhi;Tamaki;ilustrador_PENDIENTE_1
 Paisaje_1.jpg,Paisajes
 Paisaje_2.jpg,Paisajes
 Paisaje_3.jpg,Paisajes
@@ -139,9 +170,6 @@ Paisaje_5.jpg,Paisajes
 Paisaje_6.jpg,Paisajes
 Paisaje_7.jpg,Paisajes
 20250711_223028.jpg,Pendiente
-20250711_223031.jpg,Pendiente
-20250711_223037.jpg,Pendiente
-20250711_223041.jpg,Pendiente
 20250711_223045.jpg,Pendiente
 20250711_223048.jpg,Pendiente
 20250711_223116.jpg,Pendiente
@@ -149,25 +177,11 @@ Paisaje_7.jpg,Paisajes
 20250711_223131.jpg,Pendiente
 20250711_223143.jpg,Pendiente
 20250711_223146.jpg,Pendiente
-20250711_223150.jpg,Pendiente
 20250711_223201.jpg,Pendiente
 20250711_223207.jpg,Pendiente
 20250711_223210.jpg,Pendiente
-20250711_223214.jpg,Pendiente
-20250711_223217.jpg,Pendiente
-20250711_223221.jpg,Pendiente
-20250711_223225.jpg,Pendiente
 20250711_223230.jpg,Pendiente
 20250711_223235.jpg,Pendiente
-20250711_223434.jpg,Pendiente
-20250711_223437.jpg,Pendiente
-20250711_223439.jpg,Pendiente
-20250711_223442.jpg,Pendiente
-20250711_223445.jpg,Pendiente
-20250711_223448.jpg,Pendiente
-20250711_223451.jpg,Pendiente
-20250711_223454.jpg,Pendiente
-20250711_223457.jpg,Pendiente
 20250711_223502.jpg,Pendiente
 20250711_223504.jpg,Pendiente
 20250711_223507.jpg,Pendiente
@@ -175,15 +189,11 @@ Paisaje_7.jpg,Paisajes
 20250711_223514.jpg,Pendiente
 20250711_223518.jpg,Pendiente
 20250711_223521.jpg,Pendiente
-20250711_223524.jpg,Pendiente
 20250711_223526.jpg,Pendiente
 20250711_223539.jpg,Pendiente
 20250711_223544.jpg,Pendiente
 20250711_223550.jpg,Pendiente
-20250711_223558.jpg,Pendiente
 20250711_223604.jpg,Pendiente
-20250711_223607.jpg,Pendiente
-20250711_223612.jpg,Pendiente
 20250711_223618.jpg,Pendiente
 20250711_223927.jpg,Pendiente
 20250711_223931.jpg,Pendiente
@@ -198,11 +208,8 @@ Paisaje_7.jpg,Paisajes
 20250711_224016.jpg,Pendiente
 20250711_224024.jpg,Pendiente
 20250711_224028.jpg,Pendiente
-20250711_224035.jpg,Pendiente
 20250711_224041.jpg,Pendiente
 20250711_224114.jpg,Pendiente
-20250711_224118.jpg,Pendiente
-20250711_224121.jpg,Pendiente
 20250711_224127.jpg,Pendiente
 20250711_224142.jpg,Pendiente
 20250711_224206.jpg,Pendiente
@@ -255,15 +262,6 @@ Paisaje_7.jpg,Paisajes
 20250711_230108.jpg,Pendiente
 20250711_230130.jpg,Pendiente
 20250711_230203.jpg,Pendiente
-20250711_230207.jpg,Pendiente
-20250711_230211.jpg,Pendiente
-20250711_230213.jpg,Pendiente
-20250711_230216.jpg,Pendiente
-20250711_230218.jpg,Pendiente
-20250711_230221.jpg,Pendiente
-20250711_230224.jpg,Pendiente
-20250711_230235.jpg,Pendiente
-20250711_230238.jpg,Pendiente
 20250711_230251.jpg,Pendiente
 20250711_230416.jpg,Pendiente
 20250711_230439.jpg,Pendiente
@@ -332,3 +330,24 @@ Paisaje_7.jpg,Paisajes
 PENDIENTE_3.jpg,Pendiente
 PENDIENTE_4.jpg,Pendiente
 PENDIENTE_6.jpg,Pendiente
+Dr_stone_1.jpg,Dr. Stone;Suika
+Bochi_1.jpg,Bochi the Rock;Bochi
+Bochi_2.jpg,Bochi the Rock;Bochi
+Bochi_3.jpg,Bochi the Rock;Bochi
+Bochi_4.jpg,Bochi the Rock;Bochi
+Avatar_1.jpg,Avatar;Katara;ilustrador_PENDIENTE_1
+Avatar_2.jpg,Avatar;Toph;ilustrador_PENDIENTE_1
+Avatar_3.jpg,Avatar;Toph
+Original_1.jpg,Original;ilustrador_alisonalmarcegui
+Dandadan_1.jpg,Dandadan;Momo;ilustrador_alisonalmarcegui
+Dandadan_2.jpg,Dandadan;Okarun
+Dandadan_3.jpg,Dandadan;Aira
+Dandadan_4.jpg,Dandadan;Momo
+Dandadan_5.jpg,Dandadan;Momo
+Dandadan_6.jpg,Dandadan;Momo
+Dandadan_7.jpg,Dandadan;Momo
+Dandadan_8.jpg,Dandadan;Abuela
+Dandadan_9.jpg,Dandadan;Abuela
+Dandadan_10.jpg,Dandadan;Okarun
+Dragon_ball_1.jpg,Dragon Ball;Bulma;ilustrador_azallie
+Dragon_ball_2.jpg,Dragon Ball;Bulma
