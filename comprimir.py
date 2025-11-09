@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-input_folder = "imagenes_png"
+input_folder = "procesadas"
 output_folder = "procesadas_jpg"
 os.makedirs(output_folder, exist_ok=True)
 
