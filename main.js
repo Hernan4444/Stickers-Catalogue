@@ -1,36 +1,44 @@
 
 // Darkmode
-document.getElementById('toggle').addEventListener('change', () => {
-    const body = document.body;
-    const toggle = document.getElementById('toggle');
-    body.classList.toggle('dark-theme', toggle.checked);
-    document.getElementById('modeLabel').textContent = toggle.checked ? 'Dark Mode' : 'Light Mode';
-});
+// document.getElementById('toggle').addEventListener('change', () => {
+//     const body = document.body;
+//     const toggle = document.getElementById('toggle');
+//     body.classList.toggle('dark-theme', toggle.checked);
+//     document.getElementById('modeLabel').textContent = toggle.checked ? 'Dark Mode' : 'Light Mode';
+// });
 
 
 const input = document.getElementById('search');
 const tagsListSearched = []
 const allPossibleTags = new Set();
+const allImages = [];
+const ALL_TAG = 'All Stickers';
 
 
 // Llenar el div de id=catalogue con las fotos de la carpeta "procesadas_jpg"
 function loadImages() {
     // Cargar data.csv, que tiene formato "path,tags;tags" con D3
     d3.csv('data.csv', d3.autoType).then(data => {
+        let id = 0;
         data.forEach(d => {
             // Convertir los tags a un array y eliminar espacios en blanco
             d.tags = d.tags.split(';').map(tag => tag.trim().toLowerCase());
             // Añadir los tags a la lista de todos los posibles tags
             d.tags.forEach(tag => allPossibleTags.add(tag));
+            d.id = id++;
+            allImages.push(d);
 
             // Autocomplete para el buscador según los tags en allPossibleTags
         });
-        autocomplete(document.getElementById('search'), Array.from(allPossibleTags));
+        // sort allPossibleTags
+        const allPossibleTagsOrdered = Array.from(new Set(Array.from(allPossibleTags).sort()));
+        allPossibleTagsOrdered.unshift(ALL_TAG);
+        autocomplete(document.getElementById('search'), allPossibleTagsOrdered);
 
 
         d3.select('#catalogue')
             .selectAll('div')
-            .data(data)
+            .data(allImages.slice(0, 10), d => d.id)
             .join('div')
             .attr('class', 'item')
             .append('img')
@@ -42,7 +50,7 @@ function loadImages() {
 function searchTags(tag) {
     // Verificar si el tag ya está en la lista de tags buscados
     input.value = ''; // Limpiar el input después de agregar el tag
-    
+
     if (tagsListSearched.includes(tag)) {
         // Si el tag ya está en la lista, no hacer nada
         return;
@@ -64,7 +72,7 @@ function searchTags(tag) {
         filterImagesByTags();
     });
 
-    
+
     tagsListSearched.push(tag);
     filterImagesByTags()
 
@@ -78,20 +86,40 @@ function filterImagesByTags() {
             .classed('hidden', false);
         return;
     }
-
-    // Esconder imágenes que no coincidan
-    d3.select('#catalogue')
-        .selectAll('div')
-        .classed('hidden', d => {
-            // Si el tag ya está en la lista de tags buscados, no lo escondemos
+    let filteredImages;
+    if (tagsListSearched.includes(ALL_TAG.toLowerCase())) {
+        filteredImages = allImages;
+    }
+    else{
+        filteredImages = allImages.filter(d => {
             let found = false;
             tagsListSearched.forEach(t => {
                 if (d.tags.includes(t)) {
                     found = true;
                 }
             });
-            return !found;
-        });
+            return found;
+        })
+    }
+
+    console.log(filteredImages)
+    // Actualizar el catálogo con las imágenes filtradas
+    d3.select('#catalogue')
+        .selectAll('div')
+        .data(filteredImages, d => d.id)
+        .join(
+            enter => {
+                let enterDivs = enter.append('div');
+                enterDivs.attr('class', 'item');
+                enterDivs.append('img')
+                    .attr('src', d => './procesadas_jpg/' + d.nombre)
+                    .attr('alt', 'Imagen')
+                    .attr('class', 'item');
+                return enterDivs;
+            },
+            update => update,
+            exit => exit.classed('hidden', true)
+        )
 }
 
 input.addEventListener('keydown', (event) => {
@@ -104,12 +132,12 @@ input.addEventListener('keydown', (event) => {
     }
 });
 
-document.getElementById('addTagButton').addEventListener('click', () => {
-    const tag = input.value.trim().toLowerCase();
-    if (tag.length > 0) {
-        searchTags(tag);
-    }
-});
+// document.getElementById('addTagButton').addEventListener('click', () => {
+//     const tag = input.value.trim().toLowerCase();
+//     if (tag.length > 0) {
+//         searchTags(tag);
+//     }
+// });
 
 document.addEventListener('DOMContentLoaded', loadImages);
 
@@ -120,7 +148,7 @@ function autocomplete(inp, arr) {
     the text field element and an array of possible autocompleted values:*/
     var currentFocus;
     /*execute a function when someone writes in the text field:*/
-    inp.addEventListener("click", function(e) {
+    inp.addEventListener("click", function (e) {
         var a, b, i, val = this.value;
         currentFocus = -1;
         /*create a DIV element that will contain the items (values):*/
@@ -133,7 +161,7 @@ function autocomplete(inp, arr) {
         for (i = 0; i < arr.length; i++) {
             /*check if the item starts with the same letters as the text field value:*/
             // check if arr contain val.toUpperCase()
-            if (val.length==0 || arr[i].toUpperCase().includes(val.toUpperCase())) {
+            if (val.length == 0 || arr[i].toUpperCase().includes(val.toUpperCase())) {
                 /*create a DIV element for each matching element:*/
                 b = document.createElement("DIV");
                 /*make the matching letters bold:*/
@@ -169,7 +197,7 @@ function autocomplete(inp, arr) {
         for (i = 0; i < arr.length; i++) {
             /*check if the item starts with the same letters as the text field value:*/
             // check if arr contain val.toUpperCase()
-            if (val.length==0 || arr[i].toUpperCase().includes(val.toUpperCase())) {
+            if (val.length == 0 || arr[i].toUpperCase().includes(val.toUpperCase())) {
                 /*create a DIV element for each matching element:*/
                 b = document.createElement("DIV");
                 /*make the matching letters bold:*/
