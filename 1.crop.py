@@ -1,18 +1,36 @@
-# batch_crop_transparent_pngs.py
-# Recorre "to_crop" y guarda salidas en "to_crop_cropped", recortando bordes 100% transparentes.
-
 from pathlib import Path
 from PIL import Image, PngImagePlugin
+import numpy as np
 
 
 def crop_transparent_borders(img: Image.Image) -> Image.Image:
     if img.mode != "RGBA":
         img = img.convert("RGBA")
-    alpha = img.split()[3]
-    bbox = alpha.getbbox()
-    if not bbox:
-        return img  # totalmente transparente o sin contenido no-transparente
-    return img.crop(bbox)
+
+    arr = np.array(img)
+    alpha = arr[:, :, 3]
+
+    ys, xs = np.where(alpha > 1)
+    if len(xs) == 0 or len(ys) == 0:
+        return img
+
+    min_x, max_x = xs.min(), xs.max()
+    min_y, max_y = ys.min(), ys.max()
+
+    width = max_x - min_x
+    height = max_y - min_y
+    side = max(width, height)
+
+    center_x = (min_x + max_x) // 2
+    center_y = (min_y + max_y) // 2
+
+    half = side // 2
+    left = max(center_x - half, 0)
+    top = max(center_y - half, 0)
+    right = min(left + side, img.width)
+    bottom = min(top + side, img.height)
+
+    return img.crop((left, top, right, bottom))
 
 
 def main():

@@ -42,7 +42,6 @@ nombre,tags
 20250711_224426.jpg,Puella Magi Madoka Magica;Mami;ilustrador_izzynaww
 20250711_224428.jpg,Puella Magi Madoka Magica;Madoka;ilustrador_izzynaww
 20250711_224434.jpg,Puella Magi Madoka Magica;Homura;ilustrador_izzynaww
-dungeon_meshi_3.jpg,Dungeon Meshi;Marcille;Falin;ilustrador_diir_draws
 20250711_225938.jpg,Dungeon Meshi;Marcille;ilustrador_DESCONOCIDO
 20250711_225941.jpg,ilustrador_DESCONOCIDO;Dungeon Meshi;Marcille;Falin
 20250711_225945.jpg,ilustrador_DESCONOCIDO;Dungeon Meshi;Marcille
@@ -74,8 +73,6 @@ dungeon_meshi_3.jpg,Dungeon Meshi;Marcille;Falin;ilustrador_diir_draws
 20250711_230952.jpg,Original;Maid;ilustrador_DESCONOCIDO
 20250711_230955.jpg,Original;Maid;ilustrador_DESCONOCIDO
 20250711_230959.jpg,Original;Animal;Sushi;ilustrador_DESCONOCIDO
-Original_8.jpg,Original;ilustrador_ciiervo
-Original_9.jpg,Original;ilustrador_ciiervo
 20250711_231012.jpg,Original;Page-One;ilustrador_DESCONOCIDO
 20250711_231015.jpg,Original;Animal;ilustrador_DESCONOCIDO
 20250711_231018.jpg,Original;Animal;Onigiri;ilustrador_DESCONOCIDO
@@ -83,8 +80,6 @@ Original_9.jpg,Original;ilustrador_ciiervo
 20250711_231024.jpg,Original;Animal;ilustrador_DESCONOCIDO
 20250711_231040.jpg,Original;Animal;Zorro;Kitsune;ilustrador_DESCONOCIDO
 20250711_231043.jpg,Xenoblade Chronicles 2;Nia;ilustrador_DESCONOCIDO
-kaidankuri_1.jpg,Original;ilustrador_kaidankuri
-kaidankuri_2.jpg,Original;ilustrador_kaidankuri
 20250711_231052.jpg,ilustrador_DESCONOCIDO;Genshin Impact;Yae Miko
 20250711_231055.jpg,ilustrador_DESCONOCIDO;Spider-Man
 20250711_231119.jpg,Original;Neko;Gato;Animal;ilustrador_DESCONOCIDO
@@ -160,7 +155,11 @@ Chainsawman_10.jpg,Chainsaw Man;Reze;ilustrador_tora_artu
 Chainsawman_11.jpg,Chainsaw Man;Denji;ilustrador_tora_artu
 Chainsawman_12.jpg,Chainsaw Man;Power;ilustrador_Alderion_al
 Chainsawman_13.jpg,Chainsaw Man;Reze;ilustrador_Alderion_al
-Chainsawman_14.jpg,Chainsaw Man;Yoru;ilustrador_Alderion_al
+Chainsawman_14.jpg,Chainsaw Man;Yoru;Asa;ilustrador_Alderion_al
+Chainsawman_15.jpg,Chainsaw Man;Power;ilustrador_misao.draw
+Chainsawman_16.jpg,Chainsaw Man;Power;ilustrador_azallie
+Chainsawman_17.jpg,Chainsaw Man;Reze;ilustrador_azallie
+Chainsawman_18.jpg,Chainsaw Man;Yoru;Asa;ilustrador_azallie
 Chobbit_2.jpg,Chobits;Chi;ilustrador_DESCONOCIDO
 Chobbit_3.jpg,Chobits;Chi;ilustrador_DESCONOCIDO
 Chobbit_4.jpg,Chobits;Chi;ilustrador_denisiwii
@@ -246,6 +245,15 @@ Komi_10.jpg,Komi-san;Komi;ilustrador_DESCONOCIDO
 Komi_11.jpg,Komi-san;Komi;ilustrador_liprah_
 Komi_12.jpg,Komi-san;Komi;ilustrador_DESCONOCIDO
 Komi_13.jpg,Komi-san;Komi;ilustrador_DESCONOCIDO
+Lolcito_1.jpg,LoL;League of Legend;Katarina;ilustrador_hezee.art
+Lolcito_2.jpg,LoL;League of Legend;Akari;ilustrador_hezee.art
+Lolcito_3.jpg,LoL;League of Legend;Xayah;ilustrador_hezee.art
+Lolcito_4.jpg,LoL;League of Legend;Jinx;ilustrador_hezee.art
+Lolcito_5.jpg,LoL;League of Legend;Vi;ilustrador_hezee.art
+Lolcito_6.jpg,LoL;League of Legend;Ms Fortune;ilustrador_hezee.art
+Lolcito_7.jpg,LoL;League of Legend;Kai'Sa;ilustrador_hezee.art
+Lolcito_8.jpg,LoL;League of Legend;Ahri;ilustrador_hezee.art
+Lolcito_9.jpg,LoL;League of Legend;Caitlyn;ilustrador_hezee.art
 Madoka_1.jpg,Puella Magi Madoka Magica;Madoka;ilustrador_denisiwii
 Madoka_2.jpg,Puella Magi Madoka Magica;Kyoko;ilustrador_fukurinn_artu
 Madoka_3.jpg,Puella Magi Madoka Magica;Mami;ilustrador_fukurinn_artu
@@ -258,6 +266,7 @@ Makeine_3.jpg,Makeine;ilustrador_midorigale
 Mikami_1.jpg,Ghost Sweeper Mikami;Mikami;ilustrador_azallie
 Mikami_2.jpg,Ghost Sweeper Mikami;Mikami;ilustrador_pepe_salot
 Mikami_okinu.jpg,Ghost Sweeper Mikami;Okinu;ilustrador_pepe_salot
+Nana_1.jpg,Nana;ilustrador_nanda.korewah
 Noragami_1.jpg,Noragami;Hiyori;ilustrador_wofiaxt
 Original_1.jpg,Original;ilustrador_alisonalmarcegui
 Original_2.jpg,Original;ilustrador_nemupan
@@ -266,6 +275,8 @@ Original_4.jpg,Original;ilustrador_pazhuichaman
 Original_5.jpg,Original;ilustrador_nua_nuro
 Original_6.jpg,Original;Neko;ilustrador_lapizypincel
 Original_7.jpg,Original;Postal;ilustrador_tora_artu
+Original_8.jpg,Original;ilustrador_ciiervo
+Original_9.jpg,Original;ilustrador_ciiervo
 Oshi_no_ko_1.jpg,Oshi no Ko;Ai;ilustrador_azallie
 Oshi_no_ko_2.jpg,Oshi no Ko;Mem-cho;ilustrador_crystallove_fb
 Oshi_no_ko_3.jpg,Oshi no Ko;Ai;ilustrador_crystallove_fb
@@ -280,7 +291,6 @@ Ouran_1.jpg,Ouran;Haruhi;ilustrador_azallie
 PENDIENTE_3.jpg,ilustrador_DESCONOCIDO;Pokemon;Misty
 PENDIENTE_4.jpg,ilustrador_DESCONOCIDO;Ijiranaide Nagatoro-san;Nagatoro
 PENDIENTE_6.jpg,Furro;Animal;Conejo;Original;Postal;ilustrador_DESCONOCIDO
-Nana_1.jpg,Nana;ilustrador_nanda.korewah
 Paisaje_1.jpg,Paisajes;ilustrador_seba.endless
 Paisaje_2.jpg,Paisajes;ilustrador_seba.endless
 Paisaje_3.jpg,Paisajes;ilustrador_seintseii
@@ -323,6 +333,7 @@ Parejas_31.jpg,Parejas;ilustrador_DESCONOCIDO
 Parejas_32.jpg,Parejas;ilustrador_DESCONOCIDO
 Parejas_33.jpg,Parejas;ilustrador_DESCONOCIDO
 Parejas_34.jpg,Parejas;Ouran;Haruhi;Tamaki;ilustrador_wofiaxt
+Pokemon_1.jpg,Pokémon;Postal;Gardevoir;ilustrador_midorigale
 Ranma_1.jpg,Ranma 1/2;Shampoo;ilustrador_azallie
 Ranma_2.jpg,Ranma 1/2;Ranma;ilustrador_azallie
 Ranma_3.jpg,Ranma 1/2;Akane;ilustrador_azallie
@@ -360,6 +371,9 @@ Sakura_21.jpg,Sakura Card Captor;Sakura;Postal;Clamp;ilustrador_denisiwii
 Sakura_22.jpg,Sakura Card Captor;Spinel;Clamp;ilustrador_denisiwii
 Sakura_23.jpg,Sakura Card Captor;Sakura;Clamp;ilustrador_denisiwii
 Sakura_24.jpg,Sakura Card Captor;Sakura;Clamp;Kero;Poster;ilustrador_angelfishbox
+Sakura_25.jpg,Sakura Card Captor;Sakura;Clamp;ilustrador_azallie
+Sakura_26.jpg,Sakura Card Captor;Sakura;Clamp;ilustrador_azallie
+Sakura_27.jpg,Sakura Card Captor;Tomoyo;Clamp;ilustrador_azallie
 School_Rumble_1.jpg,School Rumble;Tenma;ilustrador_azallie
 Slayers_1.jpg,Slayers;Lina;ilustrador_azallie
 Slayers_2.jpg,Slayers;Lina;ilustrador_midorigale
@@ -369,14 +383,16 @@ Slayers_5.jpg,Slayers;Amelie;ilustrador_midorigale
 Spice_and_Wolf_1.jpg,Spice and Wolf;Holo;ilustrador_azallie
 Steins_Gate_1.jpg,Steins Gate;Kurisu;ilustrador_azallie
 Utena_1.jpg,Utena;ilustrador_azallie
-Utena_2.jpg,Utena;Postal;Pareja;ilustrador_lapizypincel
+Utena_2.jpg,Utena;Postal;Parejas;ilustrador_lapizypincel
 Yaoi_1.jpg,Yaoi;ilustrador_kae.shiba
+Yubisaki_1.jpg,Yubisaki to Renren;Parejas;Yuki;Itsuomi;ilustrador_Alderion_al
 ado_chica_1.jpg,Ado;idol;J-Pop;ilustrador_DESCONOCIDO
 ado_chica_2.jpg,Ado;idol;J-Pop;ilustrador_DESCONOCIDO
 ado_chica_3.jpg,Ado;idol;J-Pop;ilustrador_DESCONOCIDO
 ado_chica_4.jpg,Ado;idol;J-Pop;ilustrador_DESCONOCIDO;Concierto
 ado_chica_5.jpg,Ado;idol;J-Pop;ilustrador_piailustreichons;Concierto
 ado_chica_6.jpg,Ado;idol;J-Pop;ilustrador_dowob.artz
+ado_chica_7.jpg,Ado;idol;J-Pop;ilustrador_azallie
 ado_grande_1.jpg,Ado;idol;J-Pop;ilustrador_perosuu_
 ado_grande_2.jpg,Ado;idol;J-Pop;ilustrador_perosuu_
 ado_grande_3.jpg,Ado;idol;J-Pop;ilustrador_perosuu_
@@ -387,6 +403,7 @@ ado_grande_7.jpg,Ado;idol;J-Pop;ilustrador_piailustreichons
 ado_grande_8.jpg,Ado;idol;J-Pop;ilustrador_piailustreichons
 ado_grande_9.jpg,Ado;idol;J-Pop;ilustrador_perosuu_
 ado_grande_10.jpg,Ado;idol;J-Pop;ilustrador_perosuu_
+bocchi_1.jpg,ilustrador_azallie;Hitori Bocchi no Marumaru Seikatsu;Bocchi
 boku_no_hero_1.jpg,Boku no Hero Academia;Ochaco;ilustrador_hirokiart
 boku_no_hero_2.jpg,Boku no Hero Academia;Himiko;ilustrador_tobumasu
 boku_no_hero_3.jpg,Boku no Hero Academia;Eri;ilustrador_tobumasu
@@ -401,11 +418,12 @@ cosplayer_6.jpg,Sono Bisque Doll wa Koi wo Suru;Marin;Postal;ilustrador_Alderion
 denisiwii_1.jpg,ilustrador_denisiwii
 dungeon_meshi_1.jpg,Dungeon Meshi;Marcille;ilustrador_ventiscats
 dungeon_meshi_2.jpg,Dungeon Meshi;Falin;ilustrador_ventiscats
+dungeon_meshi_3.jpg,Dungeon Meshi;Marcille;Falin;ilustrador_diir_draws
 evangelion_1.jpg,Evangelion;Asuka;ilustrador_tora_artu
 evangelion_2.jpg,Evangelion;Rei;ilustrador_tora_artu
 frieren_1.jpg,Frieren;ilustrador_DESCONOCIDO
 frieren_2.jpg,Frieren;Stark;ilustrador_DESCONOCIDO
-frieren_3.jpg,Frieren;Himmel;ilustrador_DESCONOCIDO
+frieren_3.jpg,Frieren;Himmel;Parejas;ilustrador_DESCONOCIDO
 frieren_4.jpg,Frieren;Fern;ilustrador_DESCONOCIDO
 frieren_5.jpg,Frieren;ilustrador_DESCONOCIDO
 frieren_6.jpg,Frieren;Fern;ilustrador_DESCONOCIDO
@@ -423,6 +441,7 @@ frieren_17.jpg,Frieren;ilustrador_rat_manga
 frieren_18.jpg,Frieren;ilustrador_avivi_ilust
 frieren_19.jpg,Frieren;Fern;ilustrador_hirokiart
 frieren_20.jpg,Frieren;ilustrador_hirokiart
+frieren_21.jpg,Frieren;ilustrador_misao.draw;Parejas;Himmel
 furro_1.jpg,Original;Furro;ilustrador_TardorJet
 furro_2.jpg,Original;Furro;ilustrador_TardorJet
 furro_3.jpg,Original;Furro;ilustrador_sosiskafox111
@@ -444,20 +463,20 @@ guerreras_magicas_4.jpg,Guerreras Mágicas;Clamp;ilustrador_denisiwii
 guerreras_magicas_5.jpg,Guerreras Mágicas;Clamp;ilustrador_denisiwii
 guerreras_magicas_6.jpg,Guerreras Mágicas;Clamp;ilustrador_denisiwii
 guerreras_magicas_7.jpg,Guerreras Mágicas;Clamp;Postal;ilustrador_midorigale
+isekai_espada_1.jpg,Isekai Espada;Fran;Postal;ilustrador_midorigale
 isekai_ojisan_1.jpg,Isekai Ojisan;ilustrador_midorigale
 isekai_ojisan_2.jpg,Isekai Ojisan;ilustrador_midorigale
-isekai_espada_1.jpg,Isekai Espada;Fran;Postal;ilustrador_midorigale
 isekai_precavido_1.jpg,Isekai Heroe Precavido;Isekai;Ristarte;ilustrador_midorigale
-tate_no_yuusha_1.jpg,Tate no Yuusha;Raphtalia;Isekai;ilustrador_midorigale
-tate_no_yuusha_2.jpg,Tate no Yuusha;Filo;Isekai;ilustrador_midorigale
-youjo_senki_1.jpg,Isekai;Tanya;ilustrador_midorigale
-youjo_senki_2.jpg,Isekai;Viktoriya;ilustrador_midorigale
 k_pop_1.jpg,K-Pop;ilustrador_tohkyu;idol
 k_pop_2.jpg,K-Pop;ilustrador_tohkyu;idol
 k_pop_3.jpg,K-Pop;ilustrador_tohkyu;idol
 k_pop_4.jpg,K-Pop;ilustrador_tohkyu;idol
 k_pop_5.jpg,K-Pop;ilustrador_tohkyu;idol
+kaidankuri_1.jpg,Original;ilustrador_kaidankuri
+kaidankuri_2.jpg,Original;ilustrador_kaidankuri
 kamisama_hajimemashite_1.jpg,Parejas;Kamisama Hajimemashita;Nanami;Tomoe;ilustrador_wofiaxt
+kaoru_hana_1.jpg,Kaoru Hana wa Rin to Saku;Kaoruko;Rintaro;Parejas;ilustrador_misao.draw
+kaoru_hana_2.jpg,Kaoru Hana wa Rin to Saku;Kaoruko;ilustrador_azallie
 ki_ni_natteru_1.jpg,Ki ni Natteru;Yuri;ilustrador_tohkyu
 ki_ni_natteru_2.jpg,Ki ni Natteru;Yuri;ilustrador_DESCONOCIDO
 ki_ni_natteru_3.jpg,Ki ni Natteru;Yuri;ilustrador_DESCONOCIDO
@@ -494,12 +513,16 @@ kpop_hunter_10.jpg,K-Pop;Postal;ilustrador_midorigale;idol
 lotr_1.jpg,The Lord of the Rings;Sauron;ilustrador_seba.endless
 lotr_2.jpg,The Lord of the Rings;Gandalf;ilustrador_seba.endless
 marmalade_boy_1.jpg,Parejas;Miki;Yuu;Marmalade Boy;ilustrador_lapizypincel;Postal
+nemupan_1.jpg,Original;ilustrador_nemupan
+nemupan_2.jpg,Original;ilustrador_nemupan
 nichijou_1.jpg,Nichijou;Mio;ilustrador_DESCONOCIDO
 nichijou_2.jpg,Nichijou;Mai;ilustrador_DESCONOCIDO
 nichijou_3.jpg,Nichijou;Yuuko;ilustrador_DESCONOCIDO
 nunaimi_1.jpg,Original;ilustrador_nunaimi_
 nunaimi_2.jpg,Original;ilustrador_nunaimi_
 nunaimi_3.jpg,Original;ilustrador_nunaimi_
+odisea_1.jpg,Odisea;Kalypso;ilustrador_matchahimboy
+odisea_2.jpg,Odisea;Kalypso;ilustrador_dolly.mochimochi
 resident_evil_1.jpg,Resident Evil;Ada Wong;ilustrador_chibiscott
 skip_and_loafer_1.jpg,Parejas;Mitsumi;Sousuke;Skip and Loafer;ilustrador_lapizypincel;Postal
 spyxfamily_1.jpg,Spy x Family;Anya;Loid;Yoru;ilustrador_misao.draw
@@ -523,6 +546,8 @@ spyxfamily_18.jpg,Spy x Family;Anya;ilustrador_DESCONOCIDO
 spyxfamily_19.jpg,Spy x Family;Anya;Frieren;ilustrador_DESCONOCIDO
 spyxfamily_20.jpg,Spy x Family;Anya;ilustrador_DESCONOCIDO
 spyxfamily_21.jpg,Spy x Family;Anya;ilustrador_DESCONOCIDO
+tate_no_yuusha_1.jpg,Tate no Yuusha;Raphtalia;Isekai;ilustrador_midorigale
+tate_no_yuusha_2.jpg,Tate no Yuusha;Filo;Isekai;ilustrador_midorigale
 tonari_no_kaibutsukun_1.jpg,Tonari no Kaibutsu-kun;Shizuku;Mitsuyoshi;Parejas;ilustrador_wofiaxt
 umamusuma_1.jpg,Uma Musume;ilustrador_Lutrinachi
 umamusuma_2.jpg,Uma Musume;ilustrador_Lutrinachi
@@ -536,17 +561,6 @@ vocaloid_1.jpg,Vocaloid;ilustrador_DESCONOCIDO
 watamote_1.jpg,Watamote;Tomoko;ilustrador_crystallove_fb
 yomiitooo_1.jpg,ilustrador_yomiitooo;stay with me;idol;J-Pop
 yomiitooo_2.jpg,Original;ilustrador_yomiitooo
+youjo_senki_1.jpg,Isekai;Tanya;ilustrador_midorigale
+youjo_senki_2.jpg,Isekai;Viktoriya;ilustrador_midorigale
 your_name_1.jpg,Your Name;Mitsuha;ilustrador_azallie;Kimi no Na wa
-Yubisaki_1.jpg,Yubisaki to Renren;Parejas;Yuki;Itsuomi;ilustrador_Alderion_al
-Lolcito_1.jpg,LoL;League of Legend;Katarina;ilustrador_hezee.art
-Lolcito_2.jpg,LoL;League of Legend;Akari;ilustrador_hezee.art
-Lolcito_3.jpg,LoL;League of Legend;Xayah;ilustrador_hezee.art
-Lolcito_4.jpg,LoL;League of Legend;Jinx;ilustrador_hezee.art
-Lolcito_5.jpg,LoL;League of Legend;Vi;ilustrador_hezee.art
-Lolcito_6.jpg,LoL;League of Legend;Ms Fortune;ilustrador_hezee.art
-Lolcito_7.jpg,LoL;League of Legend;Kai'Sa;ilustrador_hezee.art
-Lolcito_8.jpg,LoL;League of Legend;Ahri;ilustrador_hezee.art
-Lolcito_9.jpg,LoL;League of Legend;Caitlyn;ilustrador_hezee.art
-odisea_1.jpg,Odisea;Kalypso;ilustrador_matchahimboy
-odisea_2.jpg,Odisea;Kalypso;ilustrador_dolly.mochimochi
-Pokemon_1.jpg,Pokémon;Postal;Gardevoir;ilustrador_midorigale
