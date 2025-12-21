@@ -30,13 +30,13 @@ nombre,tags
 20250711_224316.jpg,ilustrador_DESCONOCIDO;Evangelion;Rei
 20250711_224320.jpg,ilustrador_aikawaii._;Evangelion;Rei
 20250711_224325.jpg,ilustrador_fuwafuwa_berry;Evangelion;Rei
-20250711_224333.jpg,Puella Magi Madoka Magica;Kyoko;ilustrador_DESCONOCIDO
-20250711_224336.jpg,Puella Magi Madoka Magica;Mami;ilustrador_DESCONOCIDO
-20250711_224340.jpg,Puella Magi Madoka Magica;Homura;ilustrador_DESCONOCIDO
-20250711_224344.jpg,Puella Magi Madoka Magica;Sayaka;ilustrador_DESCONOCIDO
+20250711_224333.jpg,Puella Magi Madoka Magica;Kyoko;ilustrador_fusatime
+20250711_224336.jpg,Puella Magi Madoka Magica;Mami;ilustrador_fusatime
+20250711_224340.jpg,Puella Magi Madoka Magica;Homura;ilustrador_fusatime
+20250711_224344.jpg,Puella Magi Madoka Magica;Sayaka;ilustrador_fusatime
 20250711_224402.jpg,Puella Magi Madoka Magica;Madoka;Homura;ilustrador_DESCONOCIDO
 20250711_224408.jpg,Puella Magi Madoka Magica;Madoka;Homura;ilustrador_DESCONOCIDO
-20250711_224414.jpg,Puella Magi Madoka Magica;Madoka;ilustrador_DESCONOCIDO
+20250711_224414.jpg,Puella Magi Madoka Magica;Madoka;ilustrador_fusatime
 20250711_224417.jpg,Puella Magi Madoka Magica;Madoka;ilustrador_DESCONOCIDO
 20250711_224421.jpg,Puella Magi Madoka Magica;Homura;ilustrador_DESCONOCIDO
 20250711_224426.jpg,Puella Magi Madoka Magica;Mami;ilustrador_izzynaww
@@ -88,20 +88,20 @@ kaidankuri_2.jpg,Original;ilustrador_kaidankuri
 20250711_231052.jpg,ilustrador_DESCONOCIDO;Genshin Impact;Yae Miko
 20250711_231055.jpg,ilustrador_DESCONOCIDO;Spider-Man
 20250711_231119.jpg,Original;Neko;Gato;Animal;ilustrador_DESCONOCIDO
-20250711_231132.jpg,Original;ilustrador_DESCONOCIDO
+20250711_231132.jpg,Original;ilustrador_tokyomonster00
 20250711_231135.jpg,Original;ilustrador_DESCONOCIDO
 20250711_231137.jpg,Original;Conejo;Animal;ilustrador_DESCONOCIDO
 20250711_231208.jpg,Original;tortuga.squad;ilustrador_tortuga.squad
 20250711_231236.jpg,Original;ilustrador_DESCONOCIDO
-20250711_231245.jpg,Alicia en el País de las Maravillas;ilustrador_DESCONOCIDO;Alicia
+20250711_231245.jpg,Alicia en el País de las Maravillas;ilustrador_fusatime;Alicia
 20250711_231248.jpg,Original;ilustrador_DESCONOCIDO
 20250711_231250.jpg,Original;tortuga.squad;ilustrador_tortuga.squad
 20250711_231252.jpg,Original;tortuga.squad;ilustrador_tortuga.squad
 20250711_231254.jpg,Original;tortuga.squad;ilustrador_tortuga.squad
 20250711_231256.jpg,Original;tortuga.squad;ilustrador_tortuga.squad
-20250711_231410.jpg,Original;ilustrador_DESCONOCIDO
+20250711_231410.jpg,Original;ilustrador_tokyomonster00
 20250711_231412.jpg,ilustrador_DESCONOCIDO;Tsukihime;Hisui;Kohaku
-20250711_231416.jpg,Original;ilustrador_DESCONOCIDO
+20250711_231416.jpg,Original;ilustrador_tokyomonster00
 20250711_231419.jpg,Original;ilustrador_DESCONOCIDO
 20250711_231426.jpg,Alicia en el País de las Maravillas;ilustrador_DESCONOCIDO;Alicia
 20250711_231431.jpg,Original;ilustrador_DESCONOCIDO
@@ -124,7 +124,7 @@ Arcane_10.jpg,Arcane;Jinx;ilustrador_cuchuflislove
 Avatar_1.jpg,Avatar;Katara;ilustrador_wofiaxt
 Avatar_2.jpg,Avatar;Toph;ilustrador_wofiaxt
 Avatar_3.jpg,Avatar;Toph;ilustrador_DESCONOCIDO
-Bakarina_1.jpg,Bakarina;Katarina;ilustrador_DESCONOCIDO
+Bakarina_1.jpg,Bakarina;Katarina;ilustrador_fusatime
 Bakarina_2.jpg,Bakarina;Katarina;ilustrador_DESCONOCIDO
 Bakarina_3.jpg,Bakarina;Katarina;ilustrador_DESCONOCIDO
 Bakarina_4.jpg,Bakarina;Katarina;ilustrador_midorigale
@@ -140,7 +140,7 @@ Boticaria_2.jpg,Kusuriya;Maomao;ilustrador_DESCONOCIDO
 Boticaria_3.jpg,Kusuriya;Maomao;ilustrador_crystallove_fb
 Boticaria_4.jpg,Kusuriya;Maomao;ilustrador_hirokiart
 Boticaria_5.jpg,Kusuriya;Maomao;ilustrador_azallie
-Boticaria_6.jpg,Kusuriya;Maomao;ilustrador_DESCONOCIDO
+Boticaria_6.jpg,Kusuriya;Maomao;ilustrador_misao.draw
 Boticaria_7.jpg,Kusuriya;Maomao;ilustrador_DESCONOCIDO
 Boticaria_8.jpg,Kusuriya;Maomao;ilustrador_wofiaxt
 Boticaria_9.jpg,Kusuriya;Maomao;ilustrador_daiyumee02
@@ -172,7 +172,7 @@ Dandadan_1.jpg,Dandadan;Momo;ilustrador_alisonalmarcegui
 Dandadan_2.jpg,Dandadan;Okarun;ilustrador_DESCONOCIDO
 Dandadan_3.jpg,Dandadan;Aira;ilustrador_DESCONOCIDO
 Dandadan_4.jpg,Dandadan;Momo;ilustrador_DESCONOCIDO
-Dandadan_5.jpg,Dandadan;Momo;ilustrador_DESCONOCIDO
+Dandadan_5.jpg,Dandadan;Momo;ilustrador_misao.draw
 Dandadan_6.jpg,Dandadan;Momo;ilustrador_DESCONOCIDO
 Dandadan_7.jpg,Dandadan;Momo;ilustrador_DESCONOCIDO
 Dandadan_8.jpg,Dandadan;Abuela;ilustrador_minayalilla
@@ -289,16 +289,16 @@ Paisaje_5.jpg,Paisajes;ilustrador_seba.endless
 Paisaje_6.jpg,Paisajes;ilustrador_seba.endless
 Paisaje_7.jpg,Paisajes;ilustrador_seba.endless
 Paisaje_8.jpg,Paisajes;ilustrador_seba.endless
-Parejas_1.jpg,Parejas;Sakura;Syaoran;Sakura Card Captor;ilustrador_DESCONOCIDO
-Parejas_2.jpg,Parejas;Kimi ni Todoke;Sawako;Kazehaya;ilustrador_DESCONOCIDO
+Parejas_1.jpg,Parejas;Sakura;Syaoran;Sakura Card Captor;ilustrador_misao.draw
+Parejas_2.jpg,Parejas;Kimi ni Todoke;Sawako;Kazehaya;ilustrador_misao.draw
 Parejas_3.jpg,Parejas;ilustrador_DESCONOCIDO
 Parejas_4.jpg,Parejas;ilustrador_DESCONOCIDO
-Parejas_5.jpg,Parejas;Sakura;Syaoran;Sakura Card Captor;ilustrador_DESCONOCIDO
+Parejas_5.jpg,Parejas;Sakura;Syaoran;Sakura Card Captor;ilustrador_misao.draw
 Parejas_6.jpg,Parejas;ilustrador_DESCONOCIDO
 Parejas_7.jpg,Parejas;Naruto;Minato;Kushina;ilustrador_DESCONOCIDO
 Parejas_8.jpg,Parejas;Frieren;Fern;Stark;ilustrador_DESCONOCIDO
 Parejas_9.jpg,Parejas;Sakura;Syaoran;Sakura Card Captor;ilustrador_DESCONOCIDO
-Parejas_10.jpg,Parejas;Bulma;Vegeta;Dragon Ball;ilustrador_DESCONOCIDO
+Parejas_10.jpg,Parejas;Bulma;Vegeta;Dragon Ball;ilustrador_misao.draw
 Parejas_11.jpg,Parejas;Arcane;Jinx;Vi;ilustrador_DESCONOCIDO
 Parejas_12.jpg,Parejas;ilustrador_DESCONOCIDO
 Parejas_13.jpg,Parejas;ilustrador_DESCONOCIDO
@@ -502,7 +502,7 @@ nunaimi_2.jpg,Original;ilustrador_nunaimi_
 nunaimi_3.jpg,Original;ilustrador_nunaimi_
 resident_evil_1.jpg,Resident Evil;Ada Wong;ilustrador_chibiscott
 skip_and_loafer_1.jpg,Parejas;Mitsumi;Sousuke;Skip and Loafer;ilustrador_lapizypincel;Postal
-spyxfamily_1.jpg,Spy x Family;Anya;Loid;Yoru;ilustrador_DESCONOCIDO
+spyxfamily_1.jpg,Spy x Family;Anya;Loid;Yoru;ilustrador_misao.draw
 spyxfamily_2.jpg,Spy x Family;Anya;ilustrador_DESCONOCIDO
 spyxfamily_3.jpg,Spy x Family;Anya;ilustrador_DESCONOCIDO
 spyxfamily_4.jpg,Spy x Family;Anya;Loid;Yoru;ilustrador_minayalilla
