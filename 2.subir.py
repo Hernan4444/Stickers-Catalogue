@@ -18,7 +18,7 @@ with open(data, "r") as file:
 cloudinary.config(
     cloud_name=os.getenv("cloud_name"),
     api_key=os.getenv("api_key"),
-    api_secret=os.getenv("api_secret")
+    api_secret=os.getenv("api_secret"),
 )
 
 
@@ -50,13 +50,12 @@ for image in images:
             tags=image_tags,
             unique_filename=False,
             use_filename=True,
-            filename_override=name
+            filename_override=name,
         )
         print("Image uploaded successfully:")
         print(f"Public ID: {response['public_id']}")
         print(f"Secure URL: {response['secure_url']}")
         print(f"Tags: {response.get('tags')}")
-
 
     except Exception as e:
         print(f"Error uploading image: {e}")

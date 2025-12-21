@@ -44,7 +44,12 @@ function loadImages() {
             .append('img')
             .attr('src', d => './procesadas_jpg/' + d.nombre)
             .attr('alt', 'Imagen')
-            .attr('class', 'item');
+            .attr('class', 'item')
+            .on('dblclick', (event, d) => {
+                let ilustador = d.tags.find(tag => tag.startsWith('ilustrador_'));
+                ilustador = ilustador.replace('ilustrador_', '');
+                alert('Ilustrador: ' + ilustador);
+            });
     })
 }
 function searchTags(tag) {
@@ -90,7 +95,7 @@ function filterImagesByTags() {
     if (tagsListSearched.includes(ALL_TAG.toLowerCase())) {
         filteredImages = allImages;
     }
-    else{
+    else {
         filteredImages = allImages.filter(d => {
             let found = false;
             tagsListSearched.forEach(t => {
@@ -111,10 +116,17 @@ function filterImagesByTags() {
             enter => {
                 let enterDivs = enter.append('div');
                 enterDivs.attr('class', 'item');
-                enterDivs.append('img')
+
+                let images = enterDivs.append('img')
                     .attr('src', d => './procesadas_jpg/' + d.nombre)
                     .attr('alt', 'Imagen')
                     .attr('class', 'item');
+
+                images.on('dblclick', (event, d) => {
+                    let ilustador = d.tags.find(tag => tag.startsWith('ilustrador_'));
+                    ilustador = ilustador.replace('ilustrador_', '');
+                    alert('Ilustrador: ' + ilustador);
+                });
                 return enterDivs;
             },
             update => update,
