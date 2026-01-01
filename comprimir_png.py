@@ -1,8 +1,8 @@
 import os
 from PIL import Image
 
-input_folder = "background-remover"
-output_folder = "procesadas"
+input_folder = "imagenes_png"
+output_folder = "comprimidas"
 os.makedirs(output_folder, exist_ok=True)
 
 for filename in os.listdir(input_folder):
