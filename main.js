@@ -106,7 +106,7 @@ function filterImagesByTags() {
             return found;
         })
     }
-
+    console.log(tagsListSearched)
     console.log(filteredImages)
     // Actualizar el catálogo con las imágenes filtradas
     d3.select('#catalogue')
@@ -129,7 +129,7 @@ function filterImagesByTags() {
                 });
                 return enterDivs;
             },
-            update => update,
+            update => update.classed('hidden', false),
             exit => exit.classed('hidden', true)
         )
 }
