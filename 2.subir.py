@@ -7,7 +7,7 @@ dotenv.load_dotenv()
 data = "data.csv"
 
 info = {}
-with open(data, "r") as file:
+with open(data, "r", encoding="utf-8") as file:
     lines = file.readlines()
     for line in lines:
         nombre, tags = line.strip().split(",")
