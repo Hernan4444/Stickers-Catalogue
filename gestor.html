@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestor de imágenes</title>
+    <link rel="stylesheet" href="/gestor.css">
+</head>
+<body>
+    <main>
+        <header class="page-header">
+            <div>
+                <h1>Gestor de imágenes</h1>
+                <p>Agrega imágenes nuevas o actualiza las que ya forman parte del catálogo.</p>
+            </div>
+            <div class="counts" aria-live="polite">
+                <span id="pending-count">Pendientes: —</span>
+                <span id="processed-count">PNG procesadas: —</span>
+                <span id="jpg-count">JPG del catálogo: —</span>
+            </div>
+        </header>
+
+        <section class="source-selector">
+            <label for="source-mode">Carpeta para revisar</label>
+            <select id="source-mode">
+                <option value="pending">imagenes_png — agregar al catálogo</option>
+                <option value="processed">procesadas — actualizar PNG</option>
+                <option value="jpg">procesadas_jpg — actualizar JPG</option>
+            </select>
+            <p id="mode-help">Al guardar, la imagen pasa a procesadas y se agrega a data.csv.</p>
+        </section>
+
+        <section id="jpg-search" class="jpg-search" hidden aria-label="Buscar imágenes JPG">
+            <div class="jpg-search-header">
+                <h2>Buscar JPG</h2>
+                <span id="jpg-search-count" aria-live="polite"></span>
+            </div>
+            <div class="jpg-search-fields">
+                <label for="jpg-illustrator-filter">Ilustrador</label>
+                <input id="jpg-illustrator-filter" type="search"
+                       list="jpg-illustrator-suggestions"
+                       placeholder="Buscar por ilustrador" autocomplete="off">
+                <datalist id="jpg-illustrator-suggestions"></datalist>
+
+                <label for="jpg-tag-filter">Tags</label>
+                <div class="jpg-tag-filter">
+                    <div id="jpg-filter-pills" class="tag-pills" aria-live="polite"></div>
+                    <input id="jpg-tag-filter" type="search" list="tag-suggestions"
+                           placeholder="Agrega tags y presiona Enter" autocomplete="off">
+                </div>
+                <fieldset class="tag-match-options">
+                    <legend>Coincidencia de tags</legend>
+                    <label>
+                        <input type="radio" name="tag-match" value="all" checked>
+                        Todos los tags
+                    </label>
+                    <label>
+                        <input type="radio" name="tag-match" value="any">
+                        Cualquier tag
+                    </label>
+                </fieldset>
+                <button id="clear-jpg-filters" class="secondary" type="button">
+                    Limpiar filtros
+                </button>
+            </div>
+        </section>
+
+        <section class="workspace">
+            <div class="preview-panel">
+                <div class="navigation">
+                    <button id="previous" class="secondary" type="button">← Anterior</button>
+                    <span id="position">No hay imágenes pendientes</span>
+                    <button id="next" class="secondary" type="button">Siguiente →</button>
+                </div>
+                <div class="image-frame">
+                    <img id="preview" alt="Vista previa de la imagen pendiente">
+                    <p id="empty-message" class="empty-message" hidden>No hay imágenes en esta carpeta.</p>
+                </div>
+                <div class="rotate-controls" aria-label="Rotar imagen">
+                    <button id="rotate-left" class="secondary" type="button" aria-label="Rotar 90 grados a la izquierda">
+                        ↶ 90°
+                    </button>
+                    <span id="rotation-status">Rotación: 0°</span>
+                    <button id="rotate-right" class="secondary" type="button" aria-label="Rotar 90 grados a la derecha">
+                        ↷ 90°
+                    </button>
+                </div>
+                <small class="rotation-help">El giro se aplica al guardar; si existe su PNG/JPG asociado, también se rota.</small>
+                <p id="source-name" class="source-name"></p>
+            </div>
+
+            <form id="image-form" class="editor">
+                <label for="new-name">Nombre del archivo</label>
+                <div class="input-suffix">
+                    <input id="new-name" type="text" required maxlength="150" autocomplete="off">
+                    <span id="name-suffix">.png</span>
+                </div>
+                <small id="name-help">Si el nombre ya existe, se agrega automáticamente _número.</small>
+
+                <label for="illustrator">Ilustrador</label>
+                <div class="illustrator-input">
+                    <span>ilustrador_</span>
+                    <input id="illustrator" type="text" list="illustrator-suggestions"
+                           placeholder="DESCONOCIDO o nombre" required autocomplete="off">
+                </div>
+                <datalist id="illustrator-suggestions"></datalist>
+
+                <label for="tag-input">Otros tags</label>
+                <div id="tag-pills" class="tag-pills" aria-live="polite"></div>
+                <input id="tag-input" type="text" list="tag-suggestions"
+                       placeholder="Escribe un tag y presiona Enter" autocomplete="off">
+                <datalist id="tag-suggestions"></datalist>
+                <small>Puedes reutilizar sugerencias o escribir tags nuevos.</small>
+
+                <div class="form-actions">
+                    <button id="save-button" type="submit">Guardar y siguiente</button>
+                </div>
+                <p id="message" class="message" role="status"></p>
+            </form>
+        </section>
+
+        <section class="pipeline">
+            <div>
+                <h2>Finalizar catálogo</h2>
+                <p>Comprime las imágenes procesadas o súbelas a Cloudinary con los tags de data.csv.</p>
+            </div>
+            <div class="pipeline-actions">
+                <button id="upload-button" class="secondary" type="button">
+                    Subir a Cloudinary
+                </button>
+                <button id="compress-button" class="secondary" type="button">
+                    Comprimir a JPG
+                </button>
+            </div>
+            <pre id="job-output" aria-live="polite">Los resultados de las tareas aparecerán aquí.</pre>
+        </section>
+    </main>
+    <script src="/gestor.js"></script>
+</body>
+</html>

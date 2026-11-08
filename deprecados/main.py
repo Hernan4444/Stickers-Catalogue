@@ -1,6 +1,5 @@
 import os
 import io
-# from rembg import remove
 from PIL import Image
 
 input_folder = "imagenes_png"
@@ -22,19 +21,9 @@ for filename in os.listdir(input_folder):
             buffer.seek(0)
             img_jpg = Image.open(buffer)
 
-            # Eliminar fondo
-            # img_no_bg = remove(img_jpg)
-            img_no_bg = img_jpg
-
-            # Recorte (crop) basado en alpha
-            # alpha = img_no_bg.split()[-1]
-            # bbox = alpha.getbbox()
-            # if bbox:
-            #     img_no_bg = img_no_bg.crop(bbox)
-
             # Pegar sobre fondo #121212 y guardar como JPG
-            final = Image.new("RGB", img_no_bg.size, (18, 18, 18))  # Color #121212
-            final.paste(img_no_bg, mask=img_no_bg.split()[-1] if img_no_bg.mode == 'RGBA' else None)
+            final = Image.new("RGB", img_jpg.size, (18, 18, 18))  # Color #121212
+            final.paste(img_jpg, mask=img_jpg.split()[-1] if img_jpg.mode == 'RGBA' else None)
             final.convert("RGB").save(buffer, format="JPEG", quality=65)
             # Reducir tamaño a 240x240
             final.thumbnail((240, 240))
